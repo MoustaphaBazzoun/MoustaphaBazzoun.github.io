@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    background: url(pexels-eberhard-grossgasteiger-1366921.jpg) repeat center center fixed;
+    background-size: cover; 
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    text-align: center;
+    align-items: center;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+header > img{
+    width: 6em;
+    border-radius: 100%;
+    height: 6em;
+    border: 1px solid #fff;
+    box-shadow: rgb(28,32,96 / 24%) 0px 2px 8px 0px;
+}
+
+header > h1{
+    display: inline-block;
+    color: white;
+    background-color:#000a;
+    border-radius: 1em;
+    border: 1px solid white;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 0.3em 0.6em;
+}
+
+img{
+    width: 20px;
+}
+
+ul{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+ul > li{
+    background-color: white;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%) ;
+    -webkit-backdrop-filter:blur(10px) saturate(160%) contrast(180%) ;
+    border-radius: 10em;
+    margin: 1.4em 0;
+    padding: 1em;
+    box-shadow: rgb(28,32,96 / 24%) 0px 2px 8px 0px;
+}
+
+ul > li > a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10.5em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
